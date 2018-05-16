@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "version": "7",
+  "version_name": "r7",
+  "name": "Strictly Stack Overflow",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "92": "icon92.png",
+    "128": "icon128.png"
+  },
+  "description": "Hides noise on Stack Overflow, including links to meta, jobs, and network sites, and notifications for rep changes and achivements.",
+  "content_scripts": [
+    {
+      "matches": ["https://stackoverflow.com/*"],
+      "css": ["style.css"]
+    }
+  ]
+}

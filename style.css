@@ -1,0 +1,21 @@
+.js-achievements-button,
+.community-bulletin,
+.-rep-increase,
+.tabs a[href$="reputation"] .bounty-indicator-tab,
+#hot-network-questions,
+#hireme,
+#nav-jobs,
+.s-hero,
+.everyonelovesstackoverflow,
+.js-site-switcher-button,
+.user-page .additional-links,
+.user-panel-accounts > *,
+.user-page .story-tab,
+footer a[href*="/jobs"],
+.communities > *,
+.communities-posts > *,
+.site-footer--categories-nav > *,
+#chat-feature,
+#newsletter-ad {
+  display: none !important;
+}
