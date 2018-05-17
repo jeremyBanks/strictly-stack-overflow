@@ -1,24 +1,55 @@
-.js-achievements-button,
-.community-bulletin,
-.-rep-increase,
-.tabs a[href$="reputation"] .bounty-indicator-tab,
-#hot-network-questions,
-#hireme,
-#nav-jobs,
-.s-hero,
-.everyonelovesstackoverflow,
-.js-site-switcher-button,
-.user-page .additional-links,
-.user-panel-accounts > *,
-.user-page .story-tab,
-footer a[href*="/jobs"],
-.communities > *,
-.communities-posts > *,
-.site-footer--categories-nav > *,
-#chat-feature,
-#newsletter-ad,
-.-feature-notice,
-footer a[href^="https://www.stackoverflowbusiness.com/"],
-header a[href^="https://www.stackoverflowbusiness.com/"] {
+/* Progress Notifications */ 
+  /* Reputation and Achivements Tab in Header */
+    .js-achievements-button,
+  /* Reputation Increase Indicator in Profile */
+    .-rep-increase,
+  /* Other Reputation Increase Indicator in Profile */
+    .tabs a[href$="reputation"] .bounty-indicator-tab,
+
+/* Meta and Network */
+  /* Featured Meta and Blog Posts */
+    .community-bulletin,
+  /* Trending Network Questsions */
+    #hot-network-questions,
+  /* Network Site Switcher in Header */
+    .js-site-switcher-button,
+  /* Meta and Network Profile Links in Profile */
+    .user-page .additional-links,
+  /* Other Network Profiles in Profile */
+    .communities > *,
+  /* Other Network Profiles in Profile's Activity Tab */ 
+    .user-panel-accounts > *,
+  /* Top Network Posts in Profile */
+    .communities-posts > *,
+  /* Chat Widget in Sidebar */
+    #chat-feature,
+
+/* Ads and Jobs */
+  /* Jobs Top in Header */
+    #nav-jobs,
+  /* Jobs Ads */
+    #hireme,
+  /* Non-Jobs Ads */
+    .everyonelovesstackoverflow,
+  /* Jobs Profile in Profile */
+    .user-page .story-tab,
+  /* Jobs Links in Footer */
+    footer a[href*="/jobs"],
+
+/* Site Updates */
+  /* Large Banner Notifications */
+    .s-hero,
+  /* Network Site List in Footer */
+    .site-footer--categories-nav > *,
+  /* Site Newsletter */
+    #newsletter-ad,
+  /* New Feature Indicator in Header */
+    .-feature-notice,
+  /* Jobs and Advertising Links in Footer */
+    footer a[href^="https://www.stackoverflowbusiness.com/"],
+  /* Jobs and Advertising Links in Header */
+    header a[href^="https://www.stackoverflowbusiness.com/"],
+
+#hide#it {
   display: none !important;
 }
