@@ -16,6 +16,9 @@ footer a[href*="/jobs"],
 .communities-posts > *,
 .site-footer--categories-nav > *,
 #chat-feature,
-#newsletter-ad {
+#newsletter-ad,
+.-feature-notice,
+footer a[href^="https://www.stackoverflowbusiness.com/"],
+header a[href^="https://www.stackoverflowbusiness.com/"] {
   display: none !important;
 }
